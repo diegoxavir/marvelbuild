@@ -1,0 +1,131 @@
+html {
+    height: 100%;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+background-color: black;
+color: white;
+}
+
+.hidden {
+    display: none;
+}
+
+/* main header rules */
+
+header {
+    background-color: red;
+    padding: 10px 0px;
+}
+
+/* # for custom ID's */
+#main-logo {
+    width: 300px;
+    display: block;
+    margin: 0px auto;
+}
+
+#character_nav {
+    background-color: #675050;
+    background-image: url('../images/characters_art_mas_mob_01.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: multiply;
+
+}
+
+.characters {
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0px;
+}
+
+.characters li {
+    height: 220px;
+    margin: 10px 8px;
+    background-color: black;
+    text-align: left;
+    cursor: pointer;
+    transition: box-shadow 0.2s ease;
+    box-shadow: 0 155px 0 0 rgb(255,0,0) inset;
+}
+
+.characters li:hover {
+    box-shadow: 0 220px 0 0 rgb(255,0,0) inset;
+}
+
+.characters li h5 {
+    color: #fff;
+    padding: 12px 8px;
+}
+
+.characters li a {
+    text-decoration: none;
+
+}
+
+article, #instructions {
+    padding: 20px;
+}
+
+article h3, #instructions h3 {
+    font-size: 32px;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+article p, #intructions p {
+    width: 80%;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    margin: 0px auto;
+}
+
+
+
+
+
+/*---Srpite---*/
+
+.sprite {
+    width: 150px;
+    height: 150px;
+    background-image: url('../images/marvelSprites.jpg');
+}
+
+#carol {
+    background-position: -150px 0px;
+}
+
+#clint {
+    background-position: -300px 0px;
+}
+
+#hulk {
+    background-position: -450px 0px;
+}
+
+#thor {
+    background-position: -600px 0px;
+}
+
+#widow {
+    background-position: -750px 0px;
+}
+
+#cap:hover, #carol:hover, #clint:hover, #hulk:hover, #thor:hover, #widow:hover {
+    background-position-y: -150px;
+}
+
+/*---Footer---*/
+
+footer {
+    color: white;
+    padding: 20px 0px;
+    text-align: center;
+}
+
